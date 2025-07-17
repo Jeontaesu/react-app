@@ -1,4 +1,5 @@
 import "./App.css";
+import UserCard from "./components/UserCard";
 
 function Welcome() {
     return <h2>Welcome 컴포넌트입니다.</h2>
@@ -7,8 +8,9 @@ function Welcome() {
 function App() {
     return (
         <div>
-            <Welcome />
-            <p>JSX는 쉽습니다.!</p>
+            <h1>👋 React Props 예제</h1>
+            <UserCard name="홍길동" age={30}/>
+            <UserCard name="김철수" age={24}/>
         </div>
     )
 }
