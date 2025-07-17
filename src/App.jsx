@@ -1,10 +1,12 @@
-import ProductList from './components/ProductList';
+// import ProductList from './components/ProductList';
+
+import MultiCounter from "./components/MultiCounter";
 
 function App() {
   return (
     <div>
-      <h1>React 컴포넌트 분리 & 재사용 예제</h1>
-      <ProductList />
+      <h1>React useState 과제</h1>
+      <MultiCounter />
     </div>
   );
 }
