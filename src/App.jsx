@@ -1,12 +1,10 @@
-// import ProductList from './components/ProductList';
-
-import MultiCounter from "./components/MultiCounter";
+import GreetingTimer from "./components/GreetingTimer";
 
 function App() {
   return (
     <div>
-      <h1>React useState 과제11</h1>
-      <MultiCounter />
+      <h1>React useState 과제</h1>
+      <GreetingTimer />
     </div>
   );
 }
