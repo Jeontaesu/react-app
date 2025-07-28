@@ -5,7 +5,7 @@ import MultiCounter from "./components/MultiCounter";
 function App() {
   return (
     <div>
-      <h1>React useState 과제</h1>
+      <h1>React useState 과제11</h1>
       <MultiCounter />
     </div>
   );
