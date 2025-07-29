@@ -1,10 +1,10 @@
-import LikeButton from "./components/LikeButton";
+import FormPractice from "./components/FormPractice";
 
 function App() {
   return (
     <div>
-      <h1>👋 React Props 예제</h1>
-      <LikeButton />
+      <h1>React 이벤트 처리 예제</h1>
+      <FormPractice />
     </div>
   );
 }
