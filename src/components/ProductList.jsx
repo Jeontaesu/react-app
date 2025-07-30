@@ -8,7 +8,7 @@ export default function ProductList() {
       ];
   return (
     <div>
-        <h2>사용자 목록</h2>
+        <h2>🛍️ 상품 목록</h2>
         {products.map((product) => (
             <ProductCard key={product.id} name={product.name} price={product.price}/>
         ))}
