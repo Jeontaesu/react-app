@@ -1,10 +1,10 @@
-import MultiCounter from "./components/MultiCounter";
+import GreetingTimer from "./components/GreetingTimer";
 
 function App() {
   return (
     <div>
-      <h1>React useState 예제</h1>
-      <MultiCounter />
+      <h1>React useEffect 타이머 예제</h1>
+      <GreetingTimer />      
     </div>
   );
 }
