@@ -1,11 +1,11 @@
-import InputForm from "./components/InputForm";
+import ToggleBox from "./components/ToggleBox";
 
 function App() {
   return (
     <div>
-      {/* <h1>React useEffect 타이머 예제</h1> */}
-      <InputForm />
-    </div>
+      <h1>커스텀 Hook 실습</h1>
+      <ToggleBox />
+    </div> 
   );
 }
 
