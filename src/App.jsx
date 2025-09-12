@@ -1,11 +1,10 @@
-import UserCard from "./components/UserCard";
+import LikeButton from "./components/LikeButton";
 
 function App() {
     return (
         <div>
-            <h1>👋 React Props 예제</h1>
-            <UserCard name="홍길동" age={30} />
-            <UserCard name="전태수" age={24} />
+            <h1>React Like Button 예제</h1>
+            <LikeButton />
         </div>
     );
 }
