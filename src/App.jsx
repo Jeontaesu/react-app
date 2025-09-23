@@ -1,14 +1,10 @@
-// import FormPractice from "./components/FormPractice";
-
-import TaskList from "./components/TaskList";
+import UserList from "./components/UserList";
 
 function App() {
-    const tasks = ["React 공부하기", "운동하기", "블로그 글 쓰기"];
-
     return (
         <div>
-            <h1>조건부 렌더링과 리스트 렌더링 과제</h1>
-            <TaskList tasks={tasks} />
+            <h1>React 컴포넌트 분리 예제</h1>
+            <UserList />
         </div>
     );
 }
