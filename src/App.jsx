@@ -1,10 +1,9 @@
-import GreetingTimer from "./components/GreetingTimer";
+import InputForm from "./components/InputForm";
 
 function App() {
     return (
         <div>
-            <h1>useEffect 타이머 예제</h1>
-            <GreetingTimer />
+            <InputForm />
         </div>
     );
 }
