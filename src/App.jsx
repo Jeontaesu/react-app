@@ -1,9 +1,10 @@
-import InputForm from "./components/InputForm";
+import ToggleBox from "./components/ToggleBox";
 
 function App() {
     return (
         <div>
-            <InputForm />
+            <h1>🧠 커스텀 Hook 실습</h1>
+            <ToggleBox />
         </div>
     );
 }
