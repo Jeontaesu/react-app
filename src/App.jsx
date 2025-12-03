@@ -1,11 +1,19 @@
-import ToggleBox from "./components/ToggleBox";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function App() {
     return (
-        <div>
-            <h1>🧠 커스텀 Hook 실습</h1>
-            <ToggleBox />
-        </div>
+        <BrowserRouter>
+            <Navbar />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 
